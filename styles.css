@@ -1,0 +1,58 @@
+clase1{
+    color:green;   
+}
+/*ul -- lista no ordenada
+ol ... ordenada
+p
+div
+a
+table
+
+selectores
+
+id 
+class
+atributos -- widh="100px"
+tags - p, a ...*/
+
+.contenedor {
+    color: green;
+}
+.contenedor h1 {
+    color: red;
+    font-size: 20px;
+}
+.contenedor p {
+color:blue
+}
+
+.contenedor p span{
+    color:violet
+}
+
+/* seleccionar todos los elementos*/
+* {
+    border: solid 4px blue;
+}
+
+/*seleccionar por id*/
+#t1{
+    color:cyan
+}
+/*seleccionar por clase*/
+.t2{
+    color:red
+}
+/*seleccionar por atributo */
+[samuel]{
+    color:pink
+}
+[samuel="otronombre"]{
+    color:yellow
+}
+
+/*seleccionar por tag*/
+h4 { 
+    color:violet
+}
+
